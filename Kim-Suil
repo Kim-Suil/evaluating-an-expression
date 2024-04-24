@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	float x, y;
+
+	printf("input x: ");
+	scanf_s("%f", &x);
+
+	y = (x * x * x - 20) / (x - 7);
+
+	printf("y=%f", y);
+}
